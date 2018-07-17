@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "podcast-platform",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "podcast-platform",
+      "kebab-case"
+    ]
+  }
+}
