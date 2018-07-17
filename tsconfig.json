@@ -30,6 +30,9 @@
       ],
       "@podcast-platform/admin/guests": [
         "libs/admin/guests/src/index.ts"
+      ],
+      "@podcast-platform/common-ui": [
+        "libs/common-ui/src/index.ts"
       ]
     }
   },

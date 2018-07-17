@@ -370,6 +370,34 @@
           }
         }
       }
+    },
+    "common-ui": {
+      "root": "libs/common-ui",
+      "sourceRoot": "libs/common-ui/src",
+      "projectType": "library",
+      "prefix": "podcast-platform",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/common-ui/src/test.ts",
+            "tsConfig": "libs/common-ui/tsconfig.spec.json",
+            "karmaConfig": "libs/common-ui/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/common-ui/tsconfig.lib.json",
+              "libs/common-ui/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {
