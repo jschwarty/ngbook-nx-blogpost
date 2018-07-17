@@ -11,5 +11,9 @@
   ],
   "include": [
     "**/*.ts"
-  ]
+  
+    , "../../libs/admin/episodes/src/index.ts"
+
+    , "../../libs/admin/guests/src/index.ts"
+]
 }

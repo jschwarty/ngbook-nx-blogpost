@@ -16,6 +16,21 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@podcast-platform/website/home-screen": [
+        "libs/website/home-screen/src/index.ts"
+      ],
+      "@podcast-platform/website/episode-details": [
+        "libs/website/episode-details/src/index.ts"
+      ],
+      "@podcast-platform/admin/dashboard": [
+        "libs/admin/dashboard/src/index.ts"
+      ],
+      "@podcast-platform/admin/episodes": [
+        "libs/admin/episodes/src/index.ts"
+      ],
+      "@podcast-platform/admin/guests": [
+        "libs/admin/guests/src/index.ts"
+      ]
     }
   },
   "exclude": [

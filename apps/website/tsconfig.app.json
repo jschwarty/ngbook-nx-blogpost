@@ -11,5 +11,7 @@
   ],
   "include": [
     "**/*.ts"
-  ]
+  
+    , "../../libs/website/episode-details/src/index.ts"
+]
 }

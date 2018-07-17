@@ -19,6 +19,21 @@
     },
     "admin-e2e": {
       "tags": []
+    },
+    "website-home-screen": {
+      "tags": []
+    },
+    "website-episode-details": {
+      "tags": []
+    },
+    "admin-dashboard": {
+      "tags": []
+    },
+    "admin-episodes": {
+      "tags": []
+    },
+    "admin-guests": {
+      "tags": []
     }
   }
 }

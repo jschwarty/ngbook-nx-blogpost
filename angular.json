@@ -230,6 +230,146 @@
           }
         }
       }
+    },
+    "website-home-screen": {
+      "root": "libs/website/home-screen",
+      "sourceRoot": "libs/website/home-screen/src",
+      "projectType": "library",
+      "prefix": "podcast-platform",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/website/home-screen/src/test.ts",
+            "tsConfig": "libs/website/home-screen/tsconfig.spec.json",
+            "karmaConfig": "libs/website/home-screen/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/website/home-screen/tsconfig.lib.json",
+              "libs/website/home-screen/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "website-episode-details": {
+      "root": "libs/website/episode-details",
+      "sourceRoot": "libs/website/episode-details/src",
+      "projectType": "library",
+      "prefix": "podcast-platform",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/website/episode-details/src/test.ts",
+            "tsConfig": "libs/website/episode-details/tsconfig.spec.json",
+            "karmaConfig": "libs/website/episode-details/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/website/episode-details/tsconfig.lib.json",
+              "libs/website/episode-details/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "admin-dashboard": {
+      "root": "libs/admin/dashboard",
+      "sourceRoot": "libs/admin/dashboard/src",
+      "projectType": "library",
+      "prefix": "podcast-platform",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/admin/dashboard/src/test.ts",
+            "tsConfig": "libs/admin/dashboard/tsconfig.spec.json",
+            "karmaConfig": "libs/admin/dashboard/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/admin/dashboard/tsconfig.lib.json",
+              "libs/admin/dashboard/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "admin-episodes": {
+      "root": "libs/admin/episodes",
+      "sourceRoot": "libs/admin/episodes/src",
+      "projectType": "library",
+      "prefix": "podcast-platform",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/admin/episodes/src/test.ts",
+            "tsConfig": "libs/admin/episodes/tsconfig.spec.json",
+            "karmaConfig": "libs/admin/episodes/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/admin/episodes/tsconfig.lib.json",
+              "libs/admin/episodes/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "admin-guests": {
+      "root": "libs/admin/guests",
+      "sourceRoot": "libs/admin/guests/src",
+      "projectType": "library",
+      "prefix": "podcast-platform",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/admin/guests/src/test.ts",
+            "tsConfig": "libs/admin/guests/tsconfig.spec.json",
+            "karmaConfig": "libs/admin/guests/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/admin/guests/tsconfig.lib.json",
+              "libs/admin/guests/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {
